@@ -17,11 +17,6 @@
 
 /* GENERAL */
 
-#main-background-image {
-  background-image:url('');
-  
-  
-}
 * {
   box-sizing: border-box;
   margin: 0;
@@ -79,6 +74,15 @@ body {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
+/* IMAGE BACKGROUND */
+
+.centerImage{
+  background-position: center center; 
+}
+
+.unCenterImage{
+  background-position: unset; 
+}
 
 /* TOP ROW - DATETIME & COUNTDOWN */
 
